@@ -5,7 +5,11 @@ Spring은 다양한 애플리케이션 시나리오를 지원합니다. 대규�
 
 Spring은 오픈 소스입니다. 다양한 범위의 실제 사용 사례를 기반으로 지속적인 피드백을 제공하는 크고 활동적인 커뮤니티가 있습니다. 이것은 Spring을 오랜 기간 성공적으로 진화하는 것을 도왔습니다.
 
-## What We Mean by "Spring"
+## "Spring"이 뭐죠 ?
+"Spring"이라는 용어는 다른 맥락에서 다른 것을 의미합니다. Spring Framework 프로젝트 자체를 지칭하는 데 사용할 수 있습니다. 시간이 지남에 따라 다른 Spring 프로젝트도 Spring Framework 위에 구축되었습니다. 사람들이 "Spring"이라고 말할 때, 대부분 프로젝트의 전체 제품군을 의미합니다. 이 레퍼런스 문서는 스프링 프레임 워크 자체에 대한 토대에 중점을 둡니다.
+
+스프링 프레임워크는 여러 개의 모듈로 나뉩니다. 애플리케이션은 필요한 모듈을 선택할 수 있습니다. 코어 컨테이너의 핵심 모듈중 구성 모델과 종속성 주입 메커니즘이 포함되어있습니다. 그 외에도 Spring Framework는 메시징, 트랜잭션 데이터 및 지속성, 웹 등 다양한 애플리케이션 아키텍처에 대한 기본 지원을 제공합니다. 또한 Servlet 기반 Spring MVC 웹 프레임워크와 Spring WebFlux 대응 웹 프레임워크가 포함되어있습니다.
+
 ## History of Spring and the Spring Framework
 ## Design Philosophy
 ## Feedback and Contributions
