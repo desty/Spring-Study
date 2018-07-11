@@ -14,6 +14,17 @@ Spring은 오픈 소스입니다. 다양한 범위의 실제 사용 사례를 �
 
 ## Spring과 Spring Framework의 역사
 
+Spring은 초기 [J2EE](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition) 스펙의 복잡성에 대한 응답으로 2003 년에 들어 왔습니다. 일부는 Java EE와 Spring을 경쟁 대상으로 간주하지만 실제로 Spring은 Java EE를 보완합니다. Spring 프로그래밍 모델은 Java EE 플랫폼 사양을 포함하지 않습니다. 오히려 EE 우산(umbrella)에서 엄선 된 개별 사양과 통합됩니다.
+
+* Servlet API ([JSR 340](https://jcp.org/en/jsr/detail?id=340))
+* WebSocket API ([JSR 356](https://www.jcp.org/en/jsr/detail?id=356))
+* Concurrency Utilities ([JSR 236](https://www.jcp.org/en/jsr/detail?id=236))
+* JSON Binding API ([JSR 367](https://jcp.org/en/jsr/detail?id=367))
+* Bean Validation ([JSR 303](https://jcp.org/en/jsr/detail?id=303))
+* JPA ([JSR 338](https://jcp.org/en/jsr/detail?id=338))
+* JMS ([JSR 914](https://jcp.org/en/jsr/detail?id=914))
+* 필요한 경우 트랜잭션 조정을위한 JTA / JCA 설정을 제공합니다.
+
 ## 디자인 철학
 
 ## 피드백 및 참여
