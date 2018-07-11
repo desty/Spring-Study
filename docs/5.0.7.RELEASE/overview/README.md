@@ -10,7 +10,12 @@ Spring은 오픈 소스입니다. 다양한 범위의 실제 사용 사례를 �
 
 스프링 프레임워크는 여러 개의 모듈로 나뉩니다. 애플리케이션은 필요한 모듈을 선택할 수 있습니다. 코어 컨테이너의 핵심 모듈중 구성 모델과 종속성 주입 메커니즘이 포함되어있습니다. 그 외에도 Spring Framework는 메시징, 트랜잭션 데이터 및 지속성, 웹 등 다양한 애플리케이션 아키텍처에 대한 기본 지원을 제공합니다. 또한 Servlet 기반 Spring MVC 웹 프레임워크와 Spring WebFlux 대응 웹 프레임워크가 포함되어있습니다.
 
-## History of Spring and the Spring Framework
-## Design Philosophy
-## Feedback and Contributions
-## Getting Started
+모듈에 대한 참고 사항 : Spring의 프레임워크 jar들은 JDK9의 모듈 경로 ("직소-Jigsaw")에 배포할 수 있습니다. Jigsaw 지원 애플리케이션에 사용하기 위해 Spring Framework 5 jar에는 jar artifact 이름 (jar는 "."대신 "-"로 동일한 명명 패턴을 따릅니다. 예 : "spring-core" 및 "spring-context")와는 별도로 안정된 언어 수준(stable language-level) 모듈 이름 ("spring.core", "spring.context" 등)을 정의하는 "자동 모듈 이름 (Automatic-Module-Name)"을 제공 합니다. 물론 Spring의 프레임워크 jar는 JDK 8과 9의 classpath에서 잘 작동합니다.
+
+## Spring과 Spring Framework의 역사
+
+## 디자인 철학
+
+## 피드백 및 참여
+
+## 시작하기
