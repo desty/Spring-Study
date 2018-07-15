@@ -56,3 +56,7 @@ framework에 대해 배울 때, framework가하는 일뿐만 아니라 그 원�
 자세한 내용은 최상위 프로젝트 페이지 인 [CONTRIBUTING](https://github.com/spring-projects/spring-framework/blob/master/CONTRIBUTING.md)의 가이드 라인을 참조하십시오.
 
 ## 시작하기
+
+Spring을 처음 시작하는 분이라면 [Spring Boot](https://projects.spring.io/spring-boot/) 기반 애플리케이션을 생성하여 Spring Framework를 사용할 수 있습니다. Spring Boot는 제작 준비가 된 Spring 기반의 애플리케이션을 만드는데 빠른 (그리고 독창적인) 방법을 제공합니다. Spring Framework를 기반으로하며, 컨벤션보다 규칙을 선호하며, 가능한 한 빨리 실행되도록 설계되었습니다.
+
+[start.spring.io](https://start.spring.io/)를 사용하여 기본 프로젝트를 생성하거나 [RESTful 웹 서비스 만들기 시작하기](https://spring.io/guides/gs/rest-service/)와 같은 ["시작하기"](https://spring.io/guides) 가이드 중 하나를 수행 할 수 있습니다. 소화하기 쉬울뿐만 아니라, 이 가이드는 작업에 중점을 두고 있으며 대부분은 Spring Boot를 기반으로 합니다. 또한 특정 문제를 해결할 때 고려해야 할 Spring 포트폴리오의 다른 프로젝트도 포함합니다.
