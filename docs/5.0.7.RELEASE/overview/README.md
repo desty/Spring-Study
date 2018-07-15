@@ -49,4 +49,10 @@ framework에 대해 배울 때, framework가하는 일뿐만 아니라 그 원�
 
 ## 피드백 및 참여
 
+사용법 질문 또는 진단 또는 디버깅 이슈를 보려면 StackOverflow를 사용하는 것이 좋으며 사용할 제안 태그가 나열된 [질문 페이지](https://spring.io/questions)가 있습니다. Spring Framework에 문제가 있거나 기능을 제안하고 싶다면 [JIRA 이슈 트래커](https://jira.spring.io/projects/SPR/issues)를 사용하십시오.
+
+해결책이나 제안 사항이 있는 경우 [Github](https://github.com/spring-projects/spring-framework)에서 Pull Request 할 수 있습니다. 그러나 가장 사소한 문제를 제외하고는 토론이 진행되는 티켓 추적기에 티켓을 제출하고 나중에 참조 할 수 있도록 기록을 남길 것을 기대합니다.
+
+자세한 내용은 최상위 프로젝트 페이지 인 [CONTRIBUTING](https://github.com/spring-projects/spring-framework/blob/master/CONTRIBUTING.md)의 가이드 라인을 참조하십시오.
+
 ## 시작하기
