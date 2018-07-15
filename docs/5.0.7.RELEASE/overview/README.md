@@ -23,7 +23,15 @@ Spring은 초기 [J2EE](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_
 * Bean Validation ([JSR 303](https://jcp.org/en/jsr/detail?id=303))
 * JPA ([JSR 338](https://jcp.org/en/jsr/detail?id=338))
 * JMS ([JSR 914](https://jcp.org/en/jsr/detail?id=914))
-* 필요한 경우 트랜잭션 조정을위한 JTA / JCA 설정을 제공합니다.
+* 필요한 경우 트랜잭션 조정을 위한 JTA / JCA 설정을 제공합니다.
+
+또한 Spring Framework는 Spring Framework에서 제공하는 Spring 특정 메커니즘 대신 애플리케이션 개발자가 사용할 수 있는 Dependency Injection ([JSR 330](https://www.jcp.org/en/jsr/detail?id=330)) 및 Common Annotations ([JSR 250](https://jcp.org/en/jsr/detail?id=250)) 사양을 지원합니다.
+
+Spring Framework 5.0 부터 Spring은 최소한 Java EE 7 레벨 (예 : Servlet 3.1+, JPA 2.1+)을 필요로하는 동시에 Java EE 8 레벨의 최신 API와의 즉각적인 통합을 제공합니다 (예 : Servlet 4.0, JSON Binding API) 런타임시 발생합니다. 이로써 Spring은 예를 들어 Tomcat 8 및 9, WebSphere 9 및 JBoss EAP 7과 완벽하게 호환됩니다.
+
+시간이 지남에 따라 애플리케이션 개발에 Java EE의 역할이 진화했습니다. Java EE 및 Spring 초기에는 애플리케이션 서버에 배포 할 애플리케이션을 만들었습니다. 오늘날, Spring Boot의 도움으로 애플리케이션이 devops 및 cloud 친화적인 방법으로 생성되며 Servlet 컨테이너가 임베드되어 사소하게 변경됩니다. Spring Framework 5에서 WebFlux 애플리케이션은 서블릿 API를 직접 사용하지 않으며 서블릿 컨테이너가 아닌 서버 (예 : Netty)에서 실행할 수 있습니다.
+
+Spring은 혁신과 진화를 계속하고 있습니다. Spring Framework 외에도 Spring Boot, Spring Security, Spring Data, Spring Cloud, Spring Batch 등과 같은 다른 프로젝트가 있습니다. 각 프로젝트마다 자체 소스 코드 저장소, 이슈 트래커 및 릴리스 종지(candence)가 있음을 기억해야합니다. Spring 프로젝트의 전체 목록은 [spring.io/projects](https://spring.io/projects)를 참조하십시오.
 
 ## 디자인 철학
 
