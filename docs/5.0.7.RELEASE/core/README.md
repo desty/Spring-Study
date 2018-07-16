@@ -1,4 +1,6 @@
-# Core Technologies
+# 핵심 기술
+
+참고 문서의 이 부분은 Spring Framework에 절대적으로 필수적인 모든 기술을 다룹니다.
 
 ## The IoC container
 
