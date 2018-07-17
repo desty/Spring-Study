@@ -7,9 +7,11 @@ Spring Framework에는 개념적으로 이해하기 쉽고 Java 엔터프라이�
 
 Spring과 AspectJ (현재는 기능면에서 가장 부유 한 - 그리고 Java 엔터프라이즈 영역에서 가장 성숙한 AOP 구현)와의 통합도 제공됩니다.
 
-## The IoC container
+## IoC 컨테이너
 
-### Introduction to the Spring IoC container and beans
+### Spring IoC 컨테이너와 빈(beans)에 대한 소개
+
+이 장에서는 IoC (Inversion of Control) 원리의 Spring Framework 구현에 대해 다룹니다.
 
 ### Container overview
 
