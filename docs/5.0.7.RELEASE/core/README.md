@@ -30,7 +30,7 @@ ApplicationContext 인터페이스의 여러 구현은 Spring과 함께 즉시 �
 다음 다이어그램은 Spring의 작동 원리를 개괄적으로 보여줍니다. 애플리케이션 클래스는 구성 메타 데이터와 결합되므로 `ApplicationContext`를 만들고 초기화 한 후에 완전히 구성되고 실행 가능한 시스템 또는 애플리케이션을 가질 수 있습니다.
 
 .The Spring IoC container
-image::images/container-magic.png[]
+![container-magic.png](container-magic.png)
 
 ### Bean overview
 
