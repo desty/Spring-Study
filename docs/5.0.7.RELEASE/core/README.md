@@ -19,7 +19,18 @@ org.springframework.beans와 org.springframework.context 패키지는 Spring Fra
 
 Spring에서는 애플리케이션의 뼈대(backbone)를 형성하고 Spring IoC 컨테이너에 의해 관리되는 객체를 Bean이라고 부른다. Bean은 Spring IoC 컨테이너에 의해 인스턴스화, 어셈블링 및 관리되는 객체이다. 그렇지 않으면 bean은 단순히 애플리케이션의 많은 객체 중 하나입니다. Bean들과 그 사이의 의존성은 컨테이너가 사용하는 컨피규레이션 메타 데이터(configuration metadata)에 반영됩니다.
 
-### Container overview
+### 컨테이너 개요
+
+org.springframework.context.ApplicationContext 인터페이스는 Spring IoC 컨테이너를 나타내며 앞서 언급 한 bean을 인스턴스화, 구성 및 어셈블하는 역할을 합니다. 컨테이너는 구성 메타 데이터(configuration metadata)를 읽음으로써 인스턴스화, 구성 및 어셈블 할 객체에 대한 지침을 가져옵니다. 구성 메타 데이터는 XML, Java 어노테이션 또는 Java 코드로 표시됩니다. 애플리케이션을 구성하는 개체와 이러한 객체 간의 풍부한 상호 종속성을 표현할 수 있습니다.
+
+ApplicationContext 인터페이스의 여러 구현은 Spring과 함께 즉시 제공됩니다. 독립 실행형 애플리케이션에서는 [ClassPathXmlApplicationContext](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/javadoc-api/org/springframework/context/support/ClassPathXmlApplicationContext.html) 또는 [FileSystemXmlApplicationContext](https://docs.spring.io/spring-framework/docs/5.0.7.RELEASE/javadoc-api/org/springframework/context/support/FileSystemXmlApplicationContext.html)의 인스턴스를 만드는 것이 일반적입니다. XML은 구성 메타 데이터를 정의하기위한 전통적인 형식 이었지만 컨테이너에 Java 주석이나 코드를 메타 데이터 형식으로 사용하도록 지시 할 수 있습니다. 이러한 XML 형식은 적은 양의 XML 구성을 제공함으로써 선언적으로 추가 메타 데이터 형식을 지원합니다.
+
+대부분의 애플리케이션 시나리오에서 Spring IoC 컨테이너의 하나 이상의 인스턴스를 인스턴스화 하려면 명시적 사용자 코드가 필요하지 않습니다. 예를 들어, 웹 애플리케이션 시나리오에서 일반적으로 애플리케이션의 web.xml 파일에있는 표준 웹 설명자 XML의 간단한 8줄(또는 그정도)이면 충분합니다 ([웹 애플리케이션의 편리한 ApplicationContext 인스턴스화] 참조). [Spring Tool Suite](https://spring.io/tools/sts) Eclipse 구동 개발 환경을 사용하는 경우 마우스 클릭이나 키 입력을 거의 사용하지 않고 표준 구성을 쉽게 작성할 수 있습니다.
+
+다음 다이어그램은 Spring의 작동 원리를 개괄적으로 보여줍니다. 애플리케이션 클래스는 구성 메타 데이터와 결합되므로 `ApplicationContext`를 만들고 초기화 한 후에 완전히 구성되고 실행 가능한 시스템 또는 애플리케이션을 가질 수 있습니다.
+
+.The Spring IoC container
+image::images/container-magic.png[]
 
 ### Bean overview
 
